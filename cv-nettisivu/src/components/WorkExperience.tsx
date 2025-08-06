@@ -47,7 +47,7 @@ const WorkExperience = () => {
       title: 'Laadunvarmistaja',
       company: 'R-Sarkon Oy',
       location: 'Rauma',
-      employmentType: 'Iltatyö',
+      employmentType: 'Osaaikatyö',
       tasks: ['Laadunvarmistus', 'Pakkaus']
     }
   ];
