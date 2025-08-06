@@ -42,7 +42,7 @@ const Skills = () => {
           marginBottom: '1.5rem',
           lineHeight: '1.6'
         }}>
-          Ohjelmistokehittäjätaustaa
+          Ohjelmistokehittäjä Taustaa
         </p>
         
         <div style={{

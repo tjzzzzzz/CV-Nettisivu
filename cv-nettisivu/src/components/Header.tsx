@@ -133,7 +133,7 @@ const Header = () => {
             color: '#cbd5e1'
           }}>
             <span style={{ fontSize: '1.25rem' }}>📞</span>
-            <span style={{ fontSize: '1.125rem', fontWeight: '500' }}>+358 45 787 4771</span>
+            <span style={{ fontSize: '1.125rem', fontWeight: '500' }}>+358 4578747711</span>
           </div>
           
           <div style={{
