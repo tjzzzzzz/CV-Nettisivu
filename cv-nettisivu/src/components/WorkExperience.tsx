@@ -31,7 +31,7 @@ const WorkExperience = () => {
       title: 'Kesätyö',
       company: 'Kolmikoneistus Oy',
       location: 'Rauma',
-      employmentType: 'Kesätyö',
+      employmentType: 'Kokopäivätyö(Kesätyö)',
       tasks: ['Kappaleiden pakkaus', 'Maalaus', 'Siivous', 'Materiaalin sahaus']
     },
     {

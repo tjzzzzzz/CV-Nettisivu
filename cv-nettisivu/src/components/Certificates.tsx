@@ -5,7 +5,7 @@ const Certificates = () => {
     {
       name: 'Tulityökortti',
       validUntil: '2026',
-      color: '#ef4444'
+      color: '#10b981'
     },
     {
       name: 'Ensiapu 1-kortti',
