@@ -12,10 +12,12 @@ function App() {
       minHeight: '100vh',
       background: 'linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%)',
       color: '#f8fafc',
-      fontFamily: 'Inter, sans-serif',
+      fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
       maxWidth: '1400px',
       margin: '0 auto',
-      padding: '2rem'
+      padding: '2rem',
+      position: 'relative',
+      zIndex: 1
     }}>
       <div style={{
         position: 'fixed',

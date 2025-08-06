@@ -17,8 +17,12 @@ const Header = () => {
     }
   }, [currentIndex, fullText]);
 
+  // Fallback if framer-motion fails
+  const MotionDiv = motion.div || 'div';
+  const MotionH1 = motion.h1 || 'h1';
+
   return (
-    <motion.header
+    <MotionDiv
       initial={{ opacity: 0, y: -30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
@@ -46,7 +50,7 @@ const Header = () => {
         zIndex: -1
       }} />
 
-      <motion.h1
+      <MotionH1
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
@@ -60,7 +64,7 @@ const Header = () => {
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
-          fontFamily: 'Inter, sans-serif',
+          fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
           textShadow: '0 4px 8px rgba(0, 0, 0, 0.3)',
           position: 'relative',
           color: '#f8fafc'
@@ -82,9 +86,9 @@ const Header = () => {
             boxShadow: '0 0 10px rgba(203, 213, 225, 0.5)'
           }} />
         )}
-      </motion.h1>
+      </MotionH1>
       
-      <motion.div
+      <MotionDiv
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
@@ -147,8 +151,8 @@ const Header = () => {
             <span style={{ fontSize: '1.125rem', fontWeight: '500' }}>tuure171@gmail.com</span>
           </div>
         </div>
-      </motion.div>
-    </motion.header>
+      </MotionDiv>
+    </MotionDiv>
   );
 };
 
