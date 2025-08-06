@@ -3,20 +3,20 @@ import { motion } from 'framer-motion';
 const WorkExperience = () => {
   const workHistory = [
     {
-      period: '2024 / 2.5 kk',
-      title: 'Kokoonpanija',
-      company: 'Oras Oy',
-      location: 'Rauma',
-      employmentType: 'Kokopäivätyö (Kesätyö)',
-      tasks: ['Kokoonpano', 'Pakkaus']
-    },
-    {
       period: '2025 / 4 kk',
       title: 'Tuotanto',
       company: 'Finnchain Oy',
       location: 'Rauma',
       employmentType: 'Kokopäivätyö',
       tasks: ['Kokoamista', 'Pakkaamista', 'Asennusta']
+    },
+    {
+      period: '2024 / 2.5 kk',
+      title: 'Kokoonpanija',
+      company: 'Oras Oy',
+      location: 'Rauma',
+      employmentType: 'Kokopäivätyö (Kesätyö)',
+      tasks: ['Kokoonpano', 'Pakkaus']
     },
     {
       period: '2023-2025 / 1 v 1.5 kk',
