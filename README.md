@@ -1,5 +1,5 @@
 # CV-Nettisivu
-
+https://tjzzzzzz.github.io/CV-Nettisivu/
 <img width="1731" height="872" alt="image" src="https://github.com/user-attachments/assets/2b439300-6d30-4cee-8392-607cebce1c8b" />
 
 
