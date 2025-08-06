@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://tuure171.github.io/cv-nettisivu",
+  "homepage": "https://tjzzzzzz.github.io/CV-Nettisivu",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
