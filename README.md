@@ -1,6 +1,5 @@
-# CV-Nettisivu
+<img width="1896" height="1067" alt="image" src="https://github.com/user-attachments/assets/ca1420ee-217a-452b-a924-3b451f130a66" />
 
-<img width="1731" height="872" alt="image" src="https://github.com/user-attachments/assets/2b439300-6d30-4cee-8392-607cebce1c8b" />
 https://tjzzzzzz.github.io/CV-Nettisivu/
 
 Moderni ja responsiivinen ansioluettelosivusto, joka on rakennettu React:lla, TypeScriptillä ja Tailwind CSS:llä.
