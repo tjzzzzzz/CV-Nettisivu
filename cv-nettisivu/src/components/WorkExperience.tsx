@@ -11,20 +11,20 @@ const WorkExperience = () => {
       tasks: ['Kokoamista', 'Pakkaamista', 'Asennusta']
     },
     {
-      period: '2024 / 2.5 kk',
-      title: 'Kokoonpanija',
-      company: 'Oras Oy',
-      location: 'Rauma',
-      employmentType: 'Kokopäivätyö (Kesätyö)',
-      tasks: ['Kokoonpano', 'Pakkaus']
-    },
-    {
       period: '2023-2025 / 1 v 1.5 kk',
       title: 'Kiinteistö\nHuoltomies',
       company: 'Pihapalvelu Rauma Oy',
       location: 'Rauma',
       employmentType: 'Osaaikatyö',
       tasks: ['Kiinteistöhuolto', 'Siivous', 'Korjaustyöt', 'Yleishuolto']
+    },
+    {
+      period: '2024 / 2.5 kk',
+      title: 'Kokoonpanija',
+      company: 'Oras Oy',
+      location: 'Rauma',
+      employmentType: 'Kokopäivätyö (Kesätyö)',
+      tasks: ['Kokoonpano', 'Pakkaus']
     },
     {
       period: '2023 / 4 kk',
